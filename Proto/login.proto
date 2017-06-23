@@ -1,5 +1,11 @@
 package ServerMessage;
 
+message SignUpResponse
+{
+	required int errorCode = 1;
+	required float version = 2；
+}
+
 message TosChat
 {
 	required string name = 1;
