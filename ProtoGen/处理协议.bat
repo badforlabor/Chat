@@ -1,0 +1,1 @@
+protogen.exe -i:login.proto -o:login.cs

@@ -1,0 +1,19 @@
+package ServerMessage1;
+
+message SignUpResponse
+{
+	required int32 errorCode = 1;
+	required float version = 2;
+}
+
+message TosChat
+{
+	required string name = 1;
+	required string content = 2;
+}
+
+message TocChat
+{
+	required string name = 1;
+	required string content = 2;
+}
